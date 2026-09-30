@@ -9,7 +9,7 @@
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-Random%20Forest-F7931E?logo=scikitlearn&logoColor=white)](https://scikit-learn.org/)
 [![Deployment](https://img.shields.io/badge/Deploy-Render-46E3B7?logo=render&logoColor=white)](#-deploy-online-render--free)
 
-*Live demo — `https://<your-app>.onrender.com` (add after deploying)*
+*Live demo — `https://ai-urban-traffic-command-center.onrender.com/`
 
 </div>
 
