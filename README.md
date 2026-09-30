@@ -71,7 +71,7 @@ AI plan against a fixed-time baseline in real time.
 ## 🚀 Run locally
 
 ```bash
-git clone https://github.com/<your-username>/ai-traffic-command-center.git
+git clone https://github.com/devanshshukla-3004/AI-Urban-Traffic-Command-Center
 cd ai-traffic-command-center
 pip install -r requirements.txt
 python train_model.py          # optional — models are already included
@@ -81,13 +81,6 @@ uvicorn server:app --reload --port 8000
 Open **http://127.0.0.1:8000**.
 
 Windows one-click: double-click `run_dashboard.bat`.
-
-## ☁️ Deploy online (Render — free)
-
-1. Push this repo to GitHub.
-2. On [render.com](https://render.com): **New + → Web Service** → connect the repo.
-3. Render reads `render.yaml`: build `pip install -r requirements.txt`, start `uvicorn server:app --host 0.0.0.0 --port $PORT`.
-4. Deploy — done. Free-tier note: the app sleeps after ~15 min idle; first request wakes it in ~30–60 s.
 
 ## 🔌 API
 
