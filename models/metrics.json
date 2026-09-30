@@ -1,0 +1,28 @@
+{
+  "accuracy": 1.0,
+  "precision_weighted": 1.0,
+  "recall_weighted": 1.0,
+  "f1_weighted": 1.0,
+  "confusion_matrix": [
+    [
+      394,
+      0,
+      0
+    ],
+    [
+      0,
+      3952,
+      0
+    ],
+    [
+      0,
+      0,
+      1414
+    ]
+  ],
+  "classes": [
+    "High",
+    "Low",
+    "Moderate"
+  ]
+}
